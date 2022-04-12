@@ -144,6 +144,11 @@
         */
   
         const paintItGreen = function () {
+          let changeColor = document.getElementsByTagName("ul");
+          for(let i=0 ; i<changeColor.length;i++){
+            let change = changeColor[i];
+            change.style.backgroundColor = "green";
+          }
           //
         };
   
@@ -175,6 +180,7 @@
         */
   
         window.onload = function () {
+          alert("welcome people!");
           //
         };
   
